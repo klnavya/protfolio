@@ -1,0 +1,256 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header
+{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #040b14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+
+}
+/* 
+.top
+{
+    border: 2px solid purple;
+    height: 35%;
+    width:100%;
+    text-align: center;
+    
+} */
+
+.top img{
+   
+    height: 120px;
+    border-radius: 69%;
+    border: 6px solid rgb(96, 94, 94);
+    margin: 10px 88px;
+}
+.top h1
+{
+    color: white;
+    text-align: center;
+
+}
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons 
+{
+    /* border: 2px solid hotpink; */
+   height: 16%;
+   width:67%;
+   margin-top: 12px;
+   display: flex;
+   padding: 0px 46px;
+   justify-content: space-between;
+   gap: 14px;
+}
+.icons i{
+    color: white;
+    font-size: 16px;
+    background-color: #212431;
+    border-radius: 43px;
+    padding: 7px 8px;
+}
+
+.bottom
+{
+    /* border: 2px solid white; */
+    height: 50%;
+    width: 84%;
+    margin: 25px 23px;
+}
+
+.bottom ul li
+{
+    list-style: none;
+    line-height: 58px;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: rgb(215 209 209 / 58%);
+    font-size: 19px;
+    /* font-weight: 200; */
+}
+.footer
+{
+    /* border: 2px solid green; */
+    height: 12%;
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    
+}
+
+.footer p
+{
+    color: white;
+}
+
+#photo
+{
+    border: 2px solid red;
+    background-image: url('https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: 100% 100%; */
+    width: 80%;
+    height: 100%;
+    position: relative;
+    /* left: 300px; */
+    float: right;
+}
+
+.content
+{
+    /* border: 2px solid purple; */
+    width: 450px;
+    height: 131px;
+    position: absolute;
+    top: 225px;
+    left: 338px;
+    
+}
+
+.content h1
+{
+    font-size: 60px;
+    color: white;
+}
+.content p
+{
+    font-size: 40px;
+    color: white;
+}
+.content hr
+{
+    background-color: rgb(67, 165, 250);
+    height: 2px;
+    border: none;
+    width: 200px;
+    margin-top: 4px;
+}
+/* about starts */
+
+#about
+{
+    /* border: 3px solid rgb(33, 60, 235); */
+    /* background-color: white; */
+    width: 67%;
+    height: 430px;
+    /* margin: 50px auto; */
+    padding: 21px;
+    position: absolute;
+    left: 279px;
+   margin-left: 35px;
+    top: 708px;
+    overflow: hidden;
+    /* text-align: center; */
+}
+#about h1{
+
+font-size: 32px;
+    font-weight: bold;
+    
+}
+#about hr
+{
+    background-color: rgb(67, 165, 250);
+    height: 3px;
+    border: none;
+    width: 68px;
+    margin: 14px 0;
+
+}
+
+
+
+.box-parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    
+}
+
+#about .boxchild
+{
+     /* border: 2px solid rgb(255, 0, 162); */
+     width: 652px;
+     height: 326px;
+     margin: 16px 11px;
+     
+     
+}
+ .boxchild1
+{
+    /* border: 2px solid red; */
+     width: 254px;
+     height: 326px;
+     margin: 16px 11px;
+}
+
+#about p
+{
+    margin-top: 20px;
+    font-size: 20px;
+    /* text-align: justify; */
+    margin-bottom: 23px;
+   
+}
+ .boxchild1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+ .boxchild  li
+{
+    list-style: none;
+    line-height: 28px;
+}
+
+/* .boxchild .lichild
+{
+    border: 2px solid red; 
+
+}
+
+.boxchild .lichild1
+{
+    border: 2px solid red;
+    
+}  */
+.liparent
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-top:35px ;
+    margin-bottom: 70px;
+    padding-right: 83px;
+    
+}
+/* about end */
